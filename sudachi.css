@@ -1,0 +1,17 @@
+body {
+        background-image: url("backimage.jpg");
+#background-repeat: no-repeat;
+#background-attachment: fixed;
+background-size: cover;
+#background-position: right bottom;
+}
+
+p {
+    color: #000;
+    font-size: 15px;
+    font-weight: bold;
+    text-shadow: 2px 2px 1px #FFF,
+    -2px 2px 1px #FFF,
+    2px -2px 1px #FFF,
+    -2px -2px 1px #FFF;
+}
