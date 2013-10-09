@@ -19,6 +19,16 @@ body {
   font-weight: 700;
 }
 
+.callout .vert-text {
+  /* 追加 */
+  padding: 3px 8px;
+  color: #cccccc;
+  background-color: #000000;
+  opacity: 0.6;
+  filter: alpha(opacity=60);/*IE7*/
+  border-radius: 4px;
+}
+
 /* Side Menu */
 
 #sidebar-wrapper {
@@ -166,6 +176,9 @@ i.service-icon:hover {
   background-size: cover;
 }
 
+.callout p,h2,h3 {
+}
+
 /* Portfolio */
 
 .portfolio {
@@ -199,7 +212,7 @@ footer {
   padding: 30px 0;
 }
 
-/* Social */
+/* Social bookmarks */
 
 .social-button {
   list-style-type: none;
